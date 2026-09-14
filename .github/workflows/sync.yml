@@ -16,6 +16,6 @@ jobs:
 
       - name: Sync upstream changes
         run: |
-          gh repo sync spyd3rking/tepg
+          gh repo sync spyd3rking/dhanytv
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
